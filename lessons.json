@@ -27,9 +27,8 @@
                 "Doko ni sundeimasuka?",
                 "Tokyo ni sundeimasu",
                 "Oshigoto wa nan desu ka?",
-                "Shigoto wa Sensei desu",
-                "Oshumi wa nan desu ka",
-                "Shumi wa dokusho desu"
+                "Shigoto wa Sensei desu"
+
                 ],
 
   "sentenceDefinition": ["How do you do, I am (name). Nice to meet you.",
@@ -37,9 +36,8 @@
                           "Where do you live?",
                           "I live in Tokyo",
                           "What is your occupation?",
-                          "I am a teacher",
-                          "What are your hobbies?",
-                          "My hobby is reading"
+                          "I am a teacher"
+
                           ]
 
 

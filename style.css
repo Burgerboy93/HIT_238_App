@@ -23,32 +23,15 @@ body{
 
 /*Style content box*/
 .container{
-  width: 80%;
-  height: 600px;
-  margin: auto;
-  position: relative;
-  background-color: white;
-  border-style: solid;
-  border-width: thin;
-  border-color: #B7B8B6;
-  border-radius: 15px;
-  box-shadow: 5px 5px 3px #BCBABE;
   display: none;
 }
 
 .active{
   display: block;
+
 }
 
 /*Apply vertical centering to containers*/
-.center{
-  width: 100%;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 
 /*Style Begin learning button*/
 .button{
@@ -84,15 +67,15 @@ body{
   background-color: #1995AD;
   color: #F1F1F2;
   text-align: center;
-  font-size: 20px;
-  padding: 24px;
-  width: 150px;
+  font-size: 10px;
+  padding: 12px;
+  width: 100px;
   transition: all 0.5s;
   cursor: pointer;
   margin: auto;
   position: absolute;
   right: 20px;
-  bottom: 20px;
+  bottom: 80px;
 }
 
 .previousButton{
@@ -103,13 +86,13 @@ body{
   text-align: center;
   font-size: 20px;
   padding: 24px;
-  width: 150px;
+  width: 100px;
   transition: all 0.5s;
   cursor: pointer;
   margin: auto;
   position: absolute;
   left: 20px;
-  bottom: 20px;
+  bottom: 80px;
 }
 
 /* Set styles for bottom navigation bar */
@@ -120,7 +103,7 @@ body{
   border-style: solid;
   border-width: thin;
   border-color: #B7B8B6;
-  position: fixed;
+  position: absolute;
   bottom: 0;
 }
 
@@ -199,4 +182,41 @@ td{
     opacity: 1;
     right: 0;
   }
+  .container{
+  width: 80%;
+  height: 600px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #B7B8B6;
+  border-radius: 15px;
+  box-shadow: 5px 5px 3px #BCBABE;
+  width: 80%;
+
+  margin: auto;
+  position: relative;
+  background-color: white;
+  }
+  .center{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .center{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .nextButton{
+    bottom: 20px;
+  }
+.previousButton{
+  bottom: 20px;
+}
 }
