@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Language Learner</title>
+</head>
+<body>
+
+    <!--Heading of Application-->
+    <div class="banner">
+        <h2 id="title">LL</h2>
+    </div>
+
+    <!--First section of application. Begin learning option-->
+<div class="center">
+    <div class="container active">
+        <button class="button" id="active" onclick="beginLearning()"><span>Start</span></button>
+      </div>
+
+    <!--Second section of application. Learning content-->
+    <div class="container">
+      <h3>Greetings</h3>
+      <table class="courseMaterial" id="greetingContent">
+
+
+      </table>
+
+      <button class="nextButton" onclick="nextLesson()"><span>Next</span></button>
+</div>
+      <div class="container" >
+        <h3>Sample Sentences</h3>
+        <table class="courseMaterial" id="greetingSentencesContent">
+
+        </table>
+      <button class="previousButton" onclick="previousLesson()"><span>Previous</span></button>
+      </div>
+
+      <div class="container" id="">
+
+      </div>
+
+</div>
+
+
+    <!--Navigation Bar-->
+    <div class="bot-nav">
+      <a href="#"><i class="fas fa-school"></i></a>
+      <a href="#"><i class="fas fa-pen"></i></a>
+      <a href="#"><i class="fas fa-chalkboard-teacher"></i></a>
+      <a href="#"><i class="fas fa-user"></i></a>
+
+      <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+
+  "heading":["Japanese",
+              "English"],
+
+
+  "word" : ["Konnichiwa",
+          "Ohayougozaimasu",
+          "Konbanwa",
+          "Sayounara",
+          "Jaa, mata",
+          "Oyasuminasai",
+          "Hajimemashite",
+          "Douzoyoroshiku"],
+
+  "definition" : ["Hello",
+                "Good Morning",
+                "Good Evening",
+                "Good Bye",
+                "See you later",
+                "Good Night",
+                "How do you do",
+                "Nice meet you"],
+
+  "sentences": ["Hajimemashite, watashi wa (name) desu",
+                "Oosutoraria no Darwin kara desu",
+                "Doko ni sundeimasuka?",
+                "Tokyo ni sundeimasu",
+                "Oshigoto wa nan desu ka?",
+                "Shigoto wa Sensei desu",
+                "Oshumi wa nan desu ka",
+                "Shumi wa dokusho desu"
+                ],
+
+  "sentenceDefinition": ["How do you do, I am (name). Nice to meet you.",
+                          "I am from Darwin, Australia",
+                          "Where do you live?",
+                          "I live in Tokyo",
+                          "What is your occupation?",
+                          "I am a teacher",
+                          "What are your hobbies?",
+                          "My hobby is reading"
+                          ]
+
+
+
+}

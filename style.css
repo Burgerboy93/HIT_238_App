@@ -1,0 +1,202 @@
+/*clear and set default styling*/
+*{
+font-family: sans-serif;
+line-height: 1.15em;
+margin: 0;
+padding: 0;
+}
+
+body{
+  background-color: #F1F1F2;
+}
+
+/* Styling top header*/
+.banner{
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  background-color: #1995AD;
+  color: #F1F1F2;
+  padding: 10px;
+  font-size: 30px;
+}
+
+/*Style content box*/
+.container{
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  position: relative;
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: #B7B8B6;
+  border-radius: 15px;
+  box-shadow: 5px 5px 3px #BCBABE;
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+/*Apply vertical centering to containers*/
+.center{
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/*Style Begin learning button*/
+.button{
+  display: block;
+  border-radius: 50px;
+  background-color: #1995AD;
+  color: #F1F1F2;
+  text-align: center;
+  font-size: 20px;
+  padding: 24px;
+  width: 40%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*Style lesson content*/
+.container h3{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+/*Styling next and previous buttons*/
+.nextButton{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #1995AD;
+  color: #F1F1F2;
+  text-align: center;
+  font-size: 20px;
+  padding: 24px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.previousButton{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #1995AD;
+  color: #F1F1F2;
+  text-align: center;
+  font-size: 20px;
+  padding: 24px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+/* Set styles for bottom navigation bar */
+.bot-nav{
+  width: 100%;
+  overflow:hidden;
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: #B7B8B6;
+  position: fixed;
+  bottom: 0;
+}
+
+/* nav bar icons styling */
+.bot-nav a{
+  float: left;
+  width: 25%;
+  text-align: center;
+  color: #1995AD;
+  font-size: 36px;
+  transition: all 0.3s ease;
+  padding: 15px 0px;
+}
+
+.bot-nav a:active{
+  color: #00293C;
+}
+
+.bot-nav a:hover{
+  background-color: #BCBABE;
+}
+
+/*Style tables containing content*/
+table, td{
+  width: 40%;
+  height: 35px;
+  margin: auto;
+
+}
+
+td{
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+/*Media Query adding extra button styles for desktop*/
+
+@media screen and (min-width: 960px) {
+  .button{
+    display: block;
+    border-radius: 50px;
+    background-color: #1995AD;
+    color: #F1F1F2;
+    text-align: center;
+    font-size: 20px;
+    padding: 24px;
+    width: 40%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: auto;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+}
