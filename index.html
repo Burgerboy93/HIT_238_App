@@ -4,53 +4,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <title>Language Learner</title>
 </head>
 <body>
 
-    <!--Heading of Application-->
-    <div class="banner">
-        <h2 id="title">LL</h2>
-    </div>
-
-    <!--First section of application. Begin learning option-->
-<div class="center">
-    <div class="container active">
-        <button class="button" id="active" onclick="beginLearning()"><span>Start</span></button>
-      </div>
-
-    <!--Second section of application. Learning content-->
-    <div class="container">
-      <h3>Greetings</h3>
-      <table class="courseMaterial" id="greetingContent">
-
-
-      </table>
-
-      <button class="nextButton" onclick="nextLesson()"><span>Next</span></button>
-</div>
-      <div class="container" >
-        <h3>Sample Sentences</h3>
-        <table class="courseMaterial" id="greetingSentencesContent">
-
-        </table>
-      <button class="previousButton" onclick="previousLesson()"><span>Previous</span></button>
-      </div>
-
-      <div class="container" id="">
-
-      </div>
-
+<!--Heading of Application-->
+<header class="banner">
+  <h2>LL</h2>
+</header>
+<!--Language Selection Bunttons-->
+<div class="panel active center">
+    <button class="button" name="button" id="germanButton" onclick="learnGerman()"><img src="images\Flag_of_Germany.png"></img></button>
+    <button class="button" name="button" id="japaneseButton" onclick="learnJapanese()"><img src="images\Flag_of_Japan.png"></img></button>
+    <button class="button" name="button" id="denmarkButton" onclick="learnDanish()"><img src="images\Flag_of_Denmark.png"></img></button>
 </div>
 
 
-    <!--Navigation Bar-->
-    <div class="bot-nav">
-      <a href="#"><i class="fas fa-school"></i></a>
-      <a href="#"><i class="fas fa-pen"></i></a>
-      <a href="#"><i class="fas fa-chalkboard-teacher"></i></a>
-      <a href="#"><i class="fas fa-user"></i></a>
+<!--First section of application. Begin learning option-->
+<div class="panel">
+  <h3>Japanese Lessons</h3>
+  <table class="w3-table-all w3-tiny" id="japaneseContent">
+
+  </table>
+</div>
+<div class="panel">
+  <h3>German Lessons</h3>
+  <table class="w3-table-all w3-tiny" id="germanContent">
+
+  </table>
+</div>
+<div class="panel">
+  <h3>Danish Lessons</h3>
+  <table class="w3-table-all w3-tiny" id="danishContent">
+
+  </table>
+</div>
+<!--Second section of application. Learning content-->
 
       <script src="scripts.js"></script>
 </body>

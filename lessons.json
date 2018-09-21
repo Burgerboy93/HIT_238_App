@@ -1,10 +1,10 @@
 {
 
-  "heading":["Japanese",
-              "English"],
+  "heading":["Word",
+            "Meaning"],
 
 
-  "word" : ["Konnichiwa",
+  "japaneseWord" : ["Konnichiwa",
           "Ohayougozaimasu",
           "Konbanwa",
           "Sayounara",
@@ -13,7 +13,7 @@
           "Hajimemashite",
           "Douzoyoroshiku"],
 
-  "definition" : ["Hello",
+  "japaneseDefinition" : ["Hello",
                 "Good Morning",
                 "Good Evening",
                 "Good Bye",
@@ -22,23 +22,25 @@
                 "How do you do",
                 "Nice to meet you"],
 
-  "sentences": ["Hajimemashite, watashi wa (name) desu",
-                "Oosutoraria no Darwin kara desu",
-                "Doko ni sundeimasuka?",
-                "Tokyo ni sundeimasu",
-                "Oshigoto wa nan desu ka?",
-                "Shigoto wa Sensei desu"
+    "germanWord" :[
+      "test1",
+      "test2"
+    ],
 
-                ],
+    "germanDefinition":[
+      "test1",
+      "test2"
+    ],
 
-  "sentenceDefinition": ["How do you do, I am (name). Nice to meet you.",
-                          "I am from Darwin, Australia",
-                          "Where do you live?",
-                          "I live in Tokyo",
-                          "What is your occupation?",
-                          "I am a teacher"
+    "danishWord" :[
+      "test1",
+      "test2"
+    ],
 
-                          ]
+    "danishDefinition": [
+      "test1",
+      "test2"
+    ]
 
 
 

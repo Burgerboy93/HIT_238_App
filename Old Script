@@ -1,0 +1,21 @@
+function beginLearning(){
+  var toggle = document.getElementsByClassName('container');
+  toggle[0].classList.remove("active");
+  toggle[1].classList.add("active");
+};
+
+function previousLesson(){
+  var toggle = document.getElementsByClassName('container');
+  toggle[2].classList.remove("active");
+  toggle[1].classList.add("active");
+};
+
+function nextLesson(){
+  var toggle = document.getElementsByClassName('container');
+  toggle[1].classList.remove("active");
+  toggle[2].classList.add("active");
+};
+for (var i = 0; i < sentences.length; i++){
+greetingSentences += '<tr><td>' + sentences[i]+ '</td><td>' + sentenceDefinition[i] + '</td></tr>';
+}
+   document.getElementById('greetingSentencesContent').innerHTML = greetingSentences;
