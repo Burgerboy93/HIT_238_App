@@ -14,31 +14,31 @@ body{
 .banner{
   background-color: #1995AD;
   color: #F1F1F2;
-  padding: 10px;
+
   font-size: 24px;
 }
-/*Style content box*/
 
 
 
 
 /*Apply vertical centering to containers*/
 .center{
+  position: absolute;
   top: 50%;
   transform: translateY(50%);
+  right: 50%;
+  transform: translateX(50%);
 }
 
 .panel{
-  display: none;
-  position: absolute;
-  right: 30%;
-  transform: translateX(10%);
-}
-
-
-.active{
   display: block;
+  text-align: left;
+  margin: 10px;
+
 }
+
+
+
 /*Style Begin learning button*/
 
 img{
@@ -54,29 +54,30 @@ border-radius: 25px;
 
 }
 /*Style lesson content*/
-.w3-tiny{
-  font-size:10px!important;
+
+.contentButtons{
+  padding: 10px;
+  width: 100%;
+  background-color: #1995AD;
+  color: #F1F1F2;
+  border: none;
+  font-size: 14px;
+}
+.active, .content:hover{
+  background-color: #2F4858;
 }
 
-/*Styling next and previous buttons*/
-
-
-/* Set styles for bottom navigation bar */
-
-
-/* nav bar icons styling */
-
-/*Style tables containing content*/
 
 
 
 
+
+
+/*Media Query adding extra button styles for desktop*/
 @media screen and (min-width: 425px) {
-.w3-panel{
+.panel{
   position: absolute;
   right: 50%;
   transform: translateX(50%);
 }
 }
-}
-/*Media Query adding extra button styles for desktop*/
