@@ -22,12 +22,14 @@
                 "How do you do",
                 "Nice to meet you"],
 
-  "japaneseAudio" : [
-
+  "japaneseAudio" : ["konnichiwa.mp3",
+                      "ohayougozaimasu.mp3",
+                      "konbanwa.mp3",
+                      "sayounara.mp3",
+                      "jaa mata.mp3",
+                      "oyasuminasai.mp3",
+                      "hajimemashite.mp3",
+                      "douzoyoroshiku.mp3"
   ]
-
-
-
-
 
 }

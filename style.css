@@ -12,9 +12,10 @@ body{
 
 /* Styling top header*/
 .banner{
-  background-color: #1995AD;
+  background-color: #02C39A;
   color: #F1F1F2;
-
+  padding: 5px;
+  font-weight: bold;
   font-size: 24px;
 }
 
@@ -30,7 +31,7 @@ body{
   transform: translateX(50%);
 }
 
-.panel{
+.flagPanel{
   display: block;
   text-align: left;
   margin: 10px;
@@ -55,29 +56,57 @@ border-radius: 25px;
 }
 /*Style lesson content*/
 
-.contentButtons{
-  padding: 10px;
-  width: 100%;
-  background-color: #1995AD;
-  color: #F1F1F2;
-  border: none;
-  font-size: 14px;
-}
+
+
 .active, .content:hover{
   background-color: #2F4858;
 }
 
+.tab{
+  position: relative;
 
-
-
-
-
-
-/*Media Query adding extra button styles for desktop*/
-@media screen and (min-width: 425px) {
-.panel{
-  position: absolute;
-  right: 50%;
-  transform: translateX(50%);
+  width: 90%;
+  color: #fff;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 5px;
 }
+
+.tab input{
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.tab label{
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  background: #02C39A;
+  font-weight: bold;
+  line-height: 2;
+  cursor: pointer;
+
+}
+
+.tabContent{
+  max-height: 0;
+  overflow: hidden;
+  background: #F0F3BD;
+  color: #000000;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+  border: black;
+}
+.tab input:checked ~ .tabContent{
+  max-height: 100vh;
+}
+.table{
+text-align: left;
+width: 80%;
+
+}
+th, td{
+  padding: 5px;
 }
