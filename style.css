@@ -1,4 +1,5 @@
 /*clear and set default styling*/
+
 *{
 font-family: sans-serif;
 line-height: 1.15em;
@@ -11,6 +12,7 @@ body{
 }
 
 /* Styling top header*/
+
 .banner{
   background-color: #02C39A;
   color: #F1F1F2;
@@ -19,10 +21,17 @@ body{
   font-size: 24px;
 }
 
+/*Apply Styling to the  */
 
+.panel{
+  display: block;
+  text-align: left;
+  margin: 10px;
 
+}
 
 /*Apply vertical centering to containers*/
+
 .center{
   position: absolute;
   top: 50%;
@@ -31,40 +40,39 @@ body{
   transform: translateX(50%);
 }
 
-.flagPanel{
-  display: block;
-  text-align: left;
-  margin: 10px;
-
-}
-
-
-
-/*Style Begin learning button*/
+/*Style flag button*/
 
 img{
 width:50px;
 height:50px;
 border-radius: 25px;
 }
-.button{
+
+.flagButton{
   margin: 5px;
   padding: 0;
   background-color: #000000;
   border-radius: 25px;
 
 }
-/*Style lesson content*/
 
+/*Styling of Lesson selectors*/
 
-
-.active, .content:hover{
-  background-color: #2F4858;
+.lessonButton{
+  background-color: #02C39A;
+  font-size: 18px;
+  display: inline-block;
+  width: 90%;
+  padding: 10px;
+  text-decoration: none;
+  margin: 5px;
 }
+
+
+/*Style lesson content*/
 
 .tab{
   position: relative;
-
   width: 90%;
   color: #fff;
   overflow: hidden;
@@ -86,7 +94,6 @@ border-radius: 25px;
   font-weight: bold;
   line-height: 2;
   cursor: pointer;
-
 }
 
 .tabContent{
@@ -94,19 +101,21 @@ border-radius: 25px;
   overflow: hidden;
   background: #F0F3BD;
   color: #000000;
-  -webkit-transition: max-height .35s;
-  -o-transition: max-height .35s;
-  transition: max-height .35s;
+  -webkit-transition: max-height .3s;
+  -o-transition: max-height .3s;
+  transition: max-height .3s;
   border: black;
 }
+
 .tab input:checked ~ .tabContent{
   max-height: 100vh;
 }
+
 .table{
 text-align: left;
 width: 80%;
-
 }
+
 th, td{
   padding: 5px;
 }
@@ -116,4 +125,5 @@ th, td{
   background: #fff;
   border: none;
   border-radius: 25px;
+  width: 20px;
 }
