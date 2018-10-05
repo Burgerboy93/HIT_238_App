@@ -1,10 +1,8 @@
 {
 
-  "heading":["Word",
-            "Meaning"],
+  "greetingHeading": "Lesson 1: Greetings",
 
-
-  "japaneseWord" : ["Konnichiwa",
+  "greetingWord" : ["Konnichiwa",
           "Ohayougozaimasu",
           "Konbanwa",
           "Sayounara",
@@ -13,7 +11,7 @@
           "Hajimemashite",
           "Douzoyoroshiku"],
 
-  "japaneseDefinition" : ["Hello",
+  "greetingDefinition" : ["Hello",
                 "Good Morning",
                 "Good Evening",
                 "Good Bye",
@@ -22,7 +20,7 @@
                 "How do you do",
                 "Nice to meet you"],
 
-  "japaneseAudio" : ["konnichiwa.mp3",
+  "greetingAudio" : ["konnichiwa.mp3",
                       "ohayougozaimasu.mp3",
                       "konbanwa.mp3",
                       "sayounara.mp3",
@@ -30,6 +28,40 @@
                       "oyasuminasai.mp3",
                       "hajimemashite.mp3",
                       "douzoyoroshiku.mp3"
+  ],
+
+  "verbHeading": "Lesson 2: Verbs",
+
+  "verbWord": ["Taberu",
+        "Wakaru",
+        "Miru",
+        "Neru",
+        "Suru",
+        "Kiku",
+        "Nomu",
+        "Hanasu"
+
+  ],
+
+  "verbDefinition":["To Eat",
+    "To Understand",
+    "To See",
+    "To Sleep",
+    "To Do",
+    "To Ask",
+    "To Drink",
+    "To Talk"
+
+  ],
+
+  "verbAudio": ["Taberu.mp3",
+          "Wakaru.mp3",
+          "Miru.mp3",
+          "Neru.mp3",
+          "Suru.mp3",
+          "Kiku.mp3",
+          "Nomu.mp3",
+          "Hanasu.mp3"
   ]
 
 }

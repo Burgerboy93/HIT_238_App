@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Language Learner</title>
+  </head>
+  <body>
+    <!--Heading of Application-->
+    <header class="banner">
+      <h2>LL</h2>
+    </header>
+
+    <!--Screen Title-->
+    <div class="panel">
+      <h3>Quiz</h3>
+      <p>Match the words to their English or Japanese equivalent</p>
+    </div>
+
+    <div class="grid">
+      <div id="quiz">
+        <h5 id="question"></h5>
+        <div class="quizButtons">
+          <button type="button" name="quizButton" id="btn0"><label for ="quizButton" id="choice0"></label></button>
+          <button type="button" name="quizButton" id="btn1"><label for ="quizButton" id="choice1"></label></button>
+          <button type="button" name="quizButton" id="btn2"><label for ="quizButton" id="choice2"></label></button>
+          <button type="button" name="quizButton" id="btn3"><label for ="quizButton" id="choice3"></label></button>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <script src="js/quiz_controller.js"></script>
+    <script src="js/question.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
