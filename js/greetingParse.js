@@ -14,7 +14,7 @@ xhttp.onreadystatechange = function() {
        for (var i = 0; i < greetingDefinitions.length; i++) {
          greetings += '<div class="tab"><input id="tab'+i+'" type="radio" name="tabs"><label for="tab'+i+'">' +greetingDefinitions[i]+
           '</label><div class="tabContent"><table class="table"><tr><th>Japanese</th><th>Audio</th></tr><tr><td>'
-         +greetingWords[i]+'</td><td><button class="audio" id="sound'+i+'">Play</button></td></tr></table></div></div>';
+         +greetingWords[i]+'</td><td><button class= "audioButton" id="sound'+i+'"><i class="far fa-play-circle"></i></button></td></tr></table></div></div>';
 
        };
 
