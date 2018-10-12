@@ -20,16 +20,6 @@
                 "How do you do",
                 "Nice to meet you"],
 
-  "greetingAudio" : ["konnichiwa.mp3",
-                      "ohayougozaimasu.mp3",
-                      "konbanwa.mp3",
-                      "sayounara.mp3",
-                      "jaa mata.mp3",
-                      "oyasuminasai.mp3",
-                      "hajimemashite.mp3",
-                      "douzoyoroshiku.mp3"
-  ],
-
   "verbHeading": "Lesson 2: Verbs",
 
   "verbWord": ["Taberu",
@@ -52,16 +42,6 @@
     "To Drink",
     "To Talk"
 
-  ],
-
-  "verbAudio": ["Taberu.mp3",
-          "Wakaru.mp3",
-          "Miru.mp3",
-          "Neru.mp3",
-          "Suru.mp3",
-          "Kiku.mp3",
-          "Nomu.mp3",
-          "Hanasu.mp3"
   ]
 
 }
